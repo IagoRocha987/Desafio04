@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family= Kavoon & family= Roboto & display=swap') ;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo .textos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.logo .textos .texto01{
+    font-weight: 900;
+    font-size: 24px;
+    color:black;
+}
+
+.logo .face_insta{
+    justify-content: space-around;
+    display:flex;
+    gap: 15px;
+}
+
+.logo .textos .texto01:hover{
+    cursor: pointer;
+    color: #4044A0;    
+}
